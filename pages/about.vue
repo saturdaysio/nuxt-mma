@@ -8,13 +8,7 @@
 
         <Nav />
 
-        <section class="container mx-auto py-16">
-            <div class="content">
-                <p class="text-6xl text-center text-white">
-                    We bridge the gap between design and technology
-                </p>
-            </div>
-        </section>
+        <Hero />
 
         <section id="ethics" class="container mx-auto py-16">
             <div>
