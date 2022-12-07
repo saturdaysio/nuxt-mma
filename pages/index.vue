@@ -18,6 +18,8 @@
             </div>
         </section>
 
+        <Client />
+
         <Result />
 
         <Contact />
