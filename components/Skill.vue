@@ -2,13 +2,13 @@
     <section id="skills" class="container mx-auto py-16">
         <div class="">
             <div class="">
-                <div class="container">
+                <div class="">
                     <div class="text-center pb-8">
                         <p class="text-4xl text-white">
                             What we do
                         </p>
                     </div>
-                    <div class="flex flex-row items-stretch gap-8">
+                    <div class="flex justify-evenly gap-8">
                         <div class="content-center" v-for="item in skillStore.skillJson.service" :key="item.id">
                             <p class="text-xl text-white">{{ item.title }}</p>
                             <ul>
