@@ -8,7 +8,7 @@
     <Nav />
 
     <section id="legal" class="container mx-auto">
-      <div class="py16">
+      <div class="py-16">
         <p class="text-6xl text-white">Privacy Policy</p>
         <p class="text-white">Last updated: Jan 25, 2022</p>
       </div>
