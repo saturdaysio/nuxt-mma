@@ -9,7 +9,7 @@
 
     <section id="legal" :class="[$style.container, $style.mxAuto]">
       <div :class="$style.py16">
-        <h1 :class="[$style.text6xl, $style.textWhite]">Privacy Policy</h1>
+        <p class="text-6xl text-white">Privacy Policy</p>
         <p :class="[$style.textWhite]">Last updated: Jan 25, 2022</p>
       </div>
 
@@ -23,9 +23,9 @@
       </div>
 
       <div id="use-of-services" :class="[$style.container, $style.pb8]">
-        <h1 :class="[$style.text4xl, $style.textWhite, $style.pb4]">
+        <p :class="[$style.text4xl, $style.textWhite, $style.pb4]">
           1. Policy Scope
-        </h1>
+        </p>
         <p :class="[$style.textWhite, $style.pb4]">
           This Privacy Policy covers our treatment of your personally identifiable information and any other information
           you may provide us when using our applications, websites, container, features, products or other services
@@ -34,9 +34,9 @@
       </div>
 
       <div id="info-collected" :class="[$style.container, $style.isNormal, $style.pb8]">
-        <h1 :class="[$style.text4xl, $style.textWhite]">
+        <p :class="[$style.text4xl, $style.textWhite]">
           2. Information We Collect
-        </h1>
+        </p>
         <p :class="$style.textWhite">
           We focus on using your personal information to provide and improve our Services, respond to your requests,
           service user accounts connected to our Services, provide you with services or information you may request,
@@ -67,9 +67,9 @@
       </div>
 
       <div id="how-we-use-info" :class="[$style.container, $style.isNormal, $style.pb8]">
-        <h1 :class="[$style.text4xl, $style.textWhite]">
+        <p :class="[$style.text4xl, $style.textWhite]">
           3. How We Use the Information We Collect
-        </h1>
+        </p>
         <p :class="$style.textWhite">
           We may use the information that we collect for any of the following purposes:
         </p>
@@ -121,9 +121,9 @@
       </div>
 
       <div id="share-info" :class="[$style.container, $style.isNormal, $style.pb8]">
-        <h1 :class="[$style.text4xl, $style.textWhite]">
+        <p :class="[$style.text4xl, $style.textWhite]">
           4. Sharing Information
-        </h1>
+        </p>
         <p :class="$style.textWhite">
           We do not sell your personal information. To better provide Services, we may share your personal information
           with third parties (like social networks), and our service providers.
@@ -175,9 +175,9 @@
       </div>
 
       <div id="control-info" :class="[$style.container, $style.isNormal, $style.pb8]">
-        <h1 :class="[$style.text4xl, $style.textWhite]">
+        <p :class="[$style.text4xl, $style.textWhite]">
           5. Controlling Your Information
-        </h1>
+        </p>
         <p :class="[$style.textWhite, $style.pb4]">
           You have control over the information that you share with us subject to certain limitations.
         </p>
@@ -198,9 +198,9 @@
       </div>
 
       <div id="do-not-track" :class="[$style.container, $style.isNormal, $style.pb8]">
-        <h1 :class="[$style.text4xl, $style.textWhite]">
+        <p :class="[$style.text4xl, $style.textWhite]">
           6. Do Not Track
-        </h1>
+        </p>
         <p :class="$style.textWhite">
           We do not track our Users over time and across third party websites and therefore our Services do not respond
           to Do Not Track signals.
@@ -208,9 +208,9 @@
       </div>
 
       <div id="gdpr" :class="[$style.container, $style.isNormal, $style.pb8]">
-        <h1 :class="[$style.text4xl, $style.textWhite]">
+        <p :class="[$style.text4xl, $style.textWhite]">
           7. GDPR
-        </h1>
+        </p>
         <p :class="$style.textWhite">
           We do not collect “personal data” about, or monitor behavior of, “data subjects” as those terms are defined in
           GDPR Art. 4(1). We do not “target” individuals in the EEU.
@@ -218,9 +218,9 @@
       </div>
 
       <div id="age-restrictions" :class="[$style.container, $style.isNormal, $style.pb8]">
-        <h1 :class="[$style.text4xl, $style.textWhite]">
+        <p :class="[$style.text4xl, $style.textWhite]">
           8. Age Restrictions
-        </h1>
+        </p>
         <p :class="$style.textWhite">
           We do not knowingly collect or solicit the personal information of anyone under the age of 13, even with a
           parent or guardian's consent. Our services are not intended for children and in the event that we determine
@@ -229,9 +229,9 @@
       </div>
 
       <div id="do-not-track" :class="[$style.container, $style.isNormal, $style.pb8]">
-        <h1 :class="[$style.text4xl, $style.textWhite]">
+        <p :class="[$style.text4xl, $style.textWhite]">
           9. Changes to this Privacy Policy
-        </h1>
+        </p>
         <p :class="$style.textWhite">
           We may update this Privacy Policy from time to time as necessary based on changes to our company, our
           Services, or to applicable laws. In the event that we do update this Privacy Policy, such changes will be made
@@ -241,9 +241,9 @@
       </div>
 
       <div id="assignment" :class="[$style.container, $style.isNormal, $style.pb8]">
-        <h1 :class="[$style.text4xl, $style.textWhite]">
+        <p :class="[$style.text4xl, $style.textWhite]">
           10. Assignment, Change of Control and Transfer
-        </h1>
+        </p>
         <p :class="$style.textWhite">
           All of our rights and obligations pursuant to this Privacy Policy are freely assignable by us to any of our
           affiliates, in connection with a merger, acquisition, restructuring, or sale of assets, or by operation of law
@@ -253,9 +253,9 @@
       </div>
 
       <div id="contact-us" :class="[$style.container, $style.isNormal, $style.pb8]">
-        <h1 :class="[$style.text4xl, $style.textWhite]">
+        <p :class="[$style.text4xl, $style.textWhite]">
           11. Contact Us
-        </h1>
+        </p>
         <p :class="$style.textWhite">
           For any questions or concerns that you may have regarding this Privacy Policy, please contact us at <NuxtLink
             to="mailto:support@saturdays.io">support [at] saturdays.io</NuxtLink>.

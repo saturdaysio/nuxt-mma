@@ -9,7 +9,7 @@
 
     <section id="legal" :class="[$style.container, $style.mxAuto]">
       <div :class="$style.py16">
-        <h1 :class="[$style.text6xl, $style.textWhite]">Terms of Service</h1>
+        <p class="text-6xl text-white">Terms of Service</p>
         <p :class="[$style.textWhite]">Last updated: Jan 25, 2022</p>
       </div>
       <div id="definition" :class="$style.content, $style.isNormal">
@@ -32,9 +32,9 @@
       </div>
 
       <div id="use-of-services" :class="[$style.content, $style.isNormal, $style.pb8]">
-        <h1 :class="[$style.text4xl, $style.textWhite]">
+        <p :class="[$style.text4xl, $style.textWhite]">
           1. Use of Services
-        </h1>
+        </p>
         <p :class="[$style.textWhite, $style.pb4]">
           You may access and/or use the Services only if you have reached the age of majority or legal age in your
           jurisdiction (generally 18 or older) and can form legally binding contracts under applicable law. If you are
@@ -116,9 +116,9 @@
       </div>
 
       <div id="service-disruption-terminate" :class="[$style.content, $style.isNormal, $style.pb8]">
-        <h1 :class="[$style.text4xl, $style.textWhite]">
+        <p :class="[$style.text4xl, $style.textWhite]">
           2. Service Disruptions and Terminating Use of the Services
-        </h1>
+        </p>
         <p :class="[$style.textWhite, $style.pb1]">
           Our Services may be interrupted at any time for repairs, maintenance, upgrades or similar. At any time, we may
           discontinue or change any of the Services that may affect certain devices and platforms used for accessing and
@@ -140,9 +140,9 @@
       </div>
 
       <div id="partners-third-party" :class="[$style.content, $style.isNormal, $style.pb8]">
-        <h1 :class="[$style.text4xl, $style.textWhite]">
+        <p :class="[$style.text4xl, $style.textWhite]">
           3. Partners and third-parties
-        </h1>
+        </p>
         <p :class="$style.textWhite">
           While using the Services, you may use, access, or otherwise interact with our partners and other third-parties
           including their websites, apps, products, services, content and other properties. In such cases, the terms
@@ -151,9 +151,9 @@
       </div>
 
       <div id="ownership" :class="[$style.content, $style.isNormal, $style.pb8]">
-        <h1 :class="[$style.text4xl, $style.textWhite]">
+        <p :class="[$style.text4xl, $style.textWhite]">
           4. Ownership and Rights
-        </h1>
+        </p>
         <p :class="[$style.textWhite, $style.pb4]">
           We own all rights, trademarks, trade secrets, patents and any other intellectual property that may be
           associated with or created by us as part of our Services that were not developed by a third-party. You may not
@@ -183,9 +183,9 @@
       </div>
 
       <div id="misc" :class="[$style.content, $style.isNormal, $style.pb8]">
-        <h1 :class="[$style.text4xl, $style.textWhite]">
+        <p :class="[$style.text4xl, $style.textWhite]">
           5. Miscellaneous
-        </h1>
+        </p>
         <p :class="[$style.textWhite, $style.pb4]">
           Disclaimer and Limitation of Liability: YOU USE OUR SERVICES AT YOUR OWN RISK AND SUBJECT TO THE FOLLOWING
           DISCLAIMERS. THE SERVICES ARE PROVIDED ON AN “AS IS” BASIS WITH NO EXPRESS OR IMPLIED WARRANTIES, INCLUDING,
