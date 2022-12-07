@@ -8,24 +8,24 @@
 
         <Nav />
 
-        <section :class="[$style.container, $style.mxAuto, $style.py16]">
-            <div :class="$style.content">
-                <p :class="[$style.text6xl, $style.textCenter, $style.textWhite]">
+        <section class="container mx-auto py-16">
+            <div class="content">
+                <p class="text-6xl text-center text-white">
                     We bridge the gap between design and technology
                 </p>
             </div>
         </section>
 
-        <section id="ethics" :class="[$style.container, $style.mxAuto, $style.py16]">
+        <section id="ethics" class="container mx-auto py-16">
             <div>
-                <div :class="[$style.container, $style.pb4]">
-                    <p :class="[$style.text4xl, $style.textCenter, $style.textWhite, $style.pb8]">Keeping it 100</p>
-                    <p :class="[$style.textMd, $style.textWhite]">We believe that our work and ethics
+                <div class="container pb-8">
+                    <p class="text-4xl text-center text-white pb-8">Keeping it 100</p>
+                    <p class="text-md text-white">We believe that our work and ethics
                     define who we are. We're Human-centered Designers and Developers behind some of North America's
                     biggest mobile apps and digital brands, looking to make a net-positive impact in the world.</p>
                 </div>
-                <div :class="$style.container">
-                <p :class="[$style.textMd, $style.textWhite]">Our approach to building software
+                <div class="container">
+                <p class="text-md text-white">Our approach to building software
                     prioritizes accessibility, user-centric design, and inclusion. We research and generate ideas, then
                     build, test, and iterate on them using real-world analytics and actionable KPIs. The emphasis on
                     data-driven design, diversity, user empathy, and sustainability aren't buzzwords, they're why we
