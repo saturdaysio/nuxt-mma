@@ -21,11 +21,6 @@
               <strong class="text-white">Event</strong>
             </NuxtLink>
           </div>
-          <div class="navbarItem pr-8">
-            <NuxtLink to="/" active-class="active">
-              <strong class="text-white">Stats</strong>
-            </NuxtLink>
-          </div>
           <div class="navbarItem">
             <NuxtLink to="/about" active-class="active">
               <strong class="text-white">About</strong>
