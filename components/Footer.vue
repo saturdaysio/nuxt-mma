@@ -3,7 +3,7 @@
         <div class="flex justify-between">
             <div class="copyright">
                     <p class="text-white">
-                        &#169; 2016-2022 Saturdays.io Inc
+                        &#169; 2022 MMA
                     </p>
                 </div>
             <div class="flex justify-end">
