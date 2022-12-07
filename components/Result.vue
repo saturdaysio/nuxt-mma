@@ -11,7 +11,7 @@
                     <div class="resultCard">
                         <div class="pb-4" v-for="item in resultStore.resultJson.result" :key="item.id">
                             <p class="text-4xl text-white">{{ item.title }}</p>
-                            <p class="text-md text-orange">{{ item.desc }}</p>
+                            <p class="text-md text-blue">{{ item.desc }}</p>
                         </div>
                     </div>
                 </div>
