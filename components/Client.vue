@@ -1,15 +1,13 @@
 <template>
     <section id="clients" class="container mx-auto py-16">
-        <div class="container">
+        <div class="">
             <p class="text-4xl text-center text-white">We partner with brands brave
                 enough to do things differently.</p>
         </div>
 
-        <div id="grid" class="flex flex-row">
+        <div id="grid" class="flex flex-wrap">
             <div class="logo" v-for="item in clientStore.clientJson.clients" :key="item.id">
-                <figure class="image">
-                    <img :src="item.imgSrc" :alt="item.imgAlt" :width="item.width" :height="item.height">
-                </figure>
+                <img class="w-36 h-36" :src="item.imgSrc" :alt="item.imgAlt" :width="item.width" :height="item.height">
             </div>
         </div>
 
@@ -17,29 +15,32 @@
 </template>
 
 <script lang="ts">
-    import { useClientStore } from "~~/store/client";
+import { useClientStore } from "~~/store/client";
 
 
-    export default {
-        setup() {
+export default {
+    setup() {
 
-            const clientStore = useClientStore()
+        const clientStore = useClientStore()
 
-            return { clientStore }
-        }
+        return { clientStore }
     }
+}
 
 </script>
 
 <style scoped>
 @import '~/assets/css/tailwind.css';
 
+img {
+    height: auto;
+}
+
 .logo {
     display: flex;
-    align-items: center;
-    justify-content: center;
     width: 25%;
-    flex-shrink: 0;
+    height: auto;
+    justify-content: center;
     padding: 0 2rem;
 }
 
