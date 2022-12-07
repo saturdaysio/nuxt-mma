@@ -1,17 +1,17 @@
 <template>
-    <section id="stats" :class="[$style.container, $style.my6, $style.py6, $style.px4]">
+    <section id="stats" :class="[$style.container, $style.mxAuto, $style.py16]">
         <div :class="$style.columns">
             <div :class="$style.column">
-                <div :class="[$style.box, $style.hasBackgroundBlack]">
-                    <div :class="$style.pb6">
-                        <h1 :class="[$style.isSize2, $style.hasTextCentered, $style.hasTextWeightBold, $style.hasTextWhite]">
+                <div :class="$style.box">
+                    <div :class="$style.pb8">
+                        <p :class="[$style.text4xl, $style.textCenter, $style.textWhite]">
                             Our stats
-                        </h1>
+                        </p>
                     </div>
-                    <div :class="[$style.isFlex, $style.isFlexWrapWrap]">
-                        <div :class="[$style.resultCard, $style.pb6]" v-for="item in resultStore.resultJson.result" :key="item.id">
-                            <h1 :class="[$style.isSize1, $style.hasTextWeightBold, $style.textGradientBlueRedDark]">{{ item.title }}</h1>
-                            <p :class="[$style.isSize5, $style.hasTextWhite]">{{ item.desc }}</p>
+                    <div :class="[$style.flex, $style.flexWrap]">
+                        <div :class="$style.pb4" v-for="item in resultStore.resultJson.result" :key="item.id">
+                            <p :class="[$style.text4xl, $style.textWhite]">{{ item.title }}</p>
+                            <p :class="[$style.textMd, $style.textWhite]">{{ item.desc }}</p>
                         </div>
                     </div>
                 </div>
@@ -37,8 +37,8 @@
     }
 </script>
 
-<style lang="scss" module scoped>
-@import '~/assets/styles/main.module.scss';
+<style module scoped>
+@import '~/assets/css/tailwind.css';
 
     .resultCard {
         display: flex;
