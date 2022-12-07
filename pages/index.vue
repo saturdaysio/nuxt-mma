@@ -9,16 +9,14 @@
 
         <Hero />
 
-        <section class="container mx-auto h-64 py-16">
+        <section class="container mx-auto py-16">
             <div class="">
-                <p class="text-3xl text-center text-white">
+                <p class="text-4xl text-center text-white">
                     We're a Data-driven digital studio that focuses on the Design Development and Strategy of digital
                     products.
                 </p>
             </div>
         </section>
-
-        <Skill />
 
         <Result />
 
