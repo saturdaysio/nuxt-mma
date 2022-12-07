@@ -1,13 +1,13 @@
 <template>
-    <section id="clients" :class="[$style.container, $style.mxAuto, $style.py16]">
-        <div :class="[$style.container, $style.textCenter]">
-            <h1 :class="[$style.text4xl, $style.textCenter, $style.textWhite]">We partner with brands brave
-                enough to do things differently.</h1>
+    <section id="clients" class="container mx-auto py-16">
+        <div class="container">
+            <p class="text-4xl text-center text-white">We partner with brands brave
+                enough to do things differently.</p>
         </div>
 
-        <div id="grid" :class="[$style.flex, $style.flexRow]">
+        <div id="grid" class="flex flex-row">
             <div class="logo" v-for="item in clientStore.clientJson.clients" :key="item.id">
-                <figure :class="[$style.image]">
+                <figure class="image">
                     <img :src="item.imgSrc" :alt="item.imgAlt" :width="item.width" :height="item.height">
                 </figure>
             </div>
@@ -17,14 +17,11 @@
 </template>
 
 <script lang="ts">
-    import { useCssModule } from 'vue'
     import { useClientStore } from "~~/store/client";
 
 
     export default {
         setup() {
-            useCssModule()
-            const $style = useCssModule()
 
             const clientStore = useClientStore()
 
@@ -34,7 +31,7 @@
 
 </script>
 
-<style lang="scss" module scoped>
+<style scoped>
 @import '~/assets/css/tailwind.css';
 
 .logo {

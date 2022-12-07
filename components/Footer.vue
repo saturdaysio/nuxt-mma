@@ -1,15 +1,13 @@
 <template>
-    <footer class="footer container">
-        <div class="flex">
-            <div class="levelLeft">
-                <div class="">
+    <footer class="footer bg-purple">
+        <div class="flex justify-between">
+            <div class="copyright">
                     <p class="text-white">
                         &#169; 2016-2022 Saturdays.io Inc
                     </p>
                 </div>
-            </div>
-            <div class="flex-row">
-                <div class="navbarItem">
+            <div class="flex justify-end">
+                <div class="navbarItem pr-8">
                     <NuxtLink to="/tos" active-class="active">
                         <strong class="text-white">Terms</strong>
                     </NuxtLink>
@@ -29,5 +27,7 @@
 </script>
 
 <style scoped>
-
+    .footer {
+        padding: 3rem 1rem;
+    }
 </style>

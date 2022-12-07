@@ -1,6 +1,6 @@
 <template>
-  <section :class="[$style.container, $style.mxAuto, $style.bgBlack]">
-    <div :class="[$style.h64, $style.alignMiddle]">
+  <section class="container mx-auto py-16">
+    <div class="align-middle">
       <p class="text-6xl text-center align-middle text-white">
         Saturdays is a Canadian digital studio based in Toronto
       </p>
@@ -9,16 +9,8 @@
 </template>
 
 <script lang="ts">
-  import { useCssModule } from 'vue'
-
-  export default {
-      setup() {
-          useCssModule()
-          const $style = useCssModule()
-      }
-  }
 </script>
 
-<style module scoped>
+<style scoped>
 @import '~/assets/css/tailwind.css';
 </style>

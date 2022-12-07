@@ -4,7 +4,7 @@
             <div class="">
                 <div class="container">
                     <div class="text-center pb-8">
-                        <p class="text-3xl text-white">
+                        <p class="text-4xl text-white">
                             What we do
                         </p>
                     </div>

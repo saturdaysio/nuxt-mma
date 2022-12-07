@@ -7,8 +7,8 @@
 
     <Nav />
 
-    <section id="legal" :class="[$style.container, $style.mxAuto, $style.py16]">
-      <div :class="[$style.content, $style.py16]">
+    <section id="legal" :class="[$style.container, $style.mxAuto]">
+      <div :class="$style.py16">
         <h1 :class="[$style.text6xl, $style.textWhite]">Terms of Service</h1>
         <p :class="[$style.textWhite]">Last updated: Jan 25, 2022</p>
       </div>

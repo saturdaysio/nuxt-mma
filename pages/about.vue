@@ -2,8 +2,8 @@
     <div class="bg-black">
 
         <Head>
-            <Title>About Saturdays.io</Title>
-            <Meta name="description" content="Saturdays.io - Toronto based digital studio" />
+            <Title>About MMA</Title>
+            <Meta name="description" content="Saturdays.io - Lorem ipsum dolor sit" />
         </Head>
 
         <Nav />
