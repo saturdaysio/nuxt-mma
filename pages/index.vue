@@ -2,7 +2,7 @@
     <div class="bg-black">
         <Head>
             <Title>MMA - 2022</Title>
-            <Meta name="description" content="Saturdays.io - Lorem ipsum dolor sit" />
+            <Meta name="description" content="MMA - Lorem ipsum dolor sit" />
         </Head>
 
         <Nav />

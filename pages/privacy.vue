@@ -1,8 +1,8 @@
 <template>
   <div class="bg-black">
     <Head>
-      <Title>Saturdays.io - Privacy Policy</Title>
-      <Meta name="description" container="Saturdays.io Privacy policy" />
+      <Title>MMA - Privacy Policy</Title>
+      <Meta name="description" container="MMA Privacy policy" />
     </Head>
 
     <Nav />

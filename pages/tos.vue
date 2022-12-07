@@ -1,8 +1,8 @@
 <template>
   <div class="bg-black">
     <Head>
-      <Title>Saturdays.io - Terms of Service</Title>
-      <Meta name="description" content="Saturdays.io Terms of Service" />
+      <Title>MMA - Terms of Service</Title>
+      <Meta name="description" content="MMA Terms of Service" />
     </Head>
 
     <Nav />
