@@ -7,11 +7,11 @@
                         Our stats
                     </p>
                 </div>
-                <div class="flex flex-wrap">
-                    <div class="resultCard">
-                        <div class="pb-4" v-for="item in resultStore.resultJson.result" :key="item.id">
+                <div class="">
+                    <div class="flex flex-wrap">
+                        <div class="resultCard px-4 py-4" v-for="item in resultStore.resultJson.result" :key="item.id">
                             <p class="text-4xl text-white">{{ item.title }}</p>
-                            <p class="text-md text-blue">{{ item.desc }}</p>
+                            <p class="text-md text-gray">{{ item.desc }}</p>
                         </div>
                     </div>
                 </div>
@@ -43,7 +43,6 @@ export default {
     justify-content: flex-start;
     width: 50%;
     flex-shrink: 0;
-    padding: 0 2rem;
 }
 
 @media only screen and (max-width: 800px) {
