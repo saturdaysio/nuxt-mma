@@ -1,5 +1,5 @@
 <template>
-    <footer class="footer bg-purple">
+    <footer class="footer bg-blue">
         <div class="flex justify-between">
             <div class="copyright">
                     <p class="text-white">
