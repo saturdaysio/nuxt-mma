@@ -36,7 +36,7 @@ export default defineNuxtConfig({
 
     // Global CSS/SCSS
     css: [
-        "~/assets/css/tailwind.css"
+        "@/assets/css/tailwind.css"
     ],
 
     // Auto import components: https://go.nuxtjs.dev/config-components
