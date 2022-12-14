@@ -46,7 +46,7 @@ module.exports = {
       white: "#fff"
     },
     fontFamily: {
-      sans: ["Poppins", "helvetica", "sans-serif"],
+      sans: ['Poppins', 'Helvetica', 'sans-serif'],
     },
 
     extend: {
