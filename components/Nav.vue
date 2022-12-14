@@ -88,7 +88,6 @@
 <script lang="ts">
 
 export default {
-
   data: function () {
     return {
       toggle: false,
@@ -108,7 +107,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 @import '~/assets/css/tailwind.css';
 
 .navbar {

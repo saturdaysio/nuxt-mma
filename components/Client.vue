@@ -17,16 +17,12 @@
 <script lang="ts">
 import { useClientStore } from "~~/store/client";
 
-
 export default {
     setup() {
-
         const clientStore = useClientStore()
-
         return { clientStore }
     }
 }
-
 </script>
 
 <style scoped>

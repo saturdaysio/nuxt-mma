@@ -21,16 +21,15 @@
 </template>
 
 <script lang="ts">
-import { useResultStore } from "~~/store/result";
+    import { useResultStore } from "~~/store/result";
 
+    export default {
+        setup() {
+            const resultStore = useResultStore()
 
-export default {
-    setup() {
-        const resultStore = useResultStore()
-
-        return { resultStore }
+            return { resultStore }
+        }
     }
-}
 </script>
 
 <style scoped>

@@ -29,7 +29,6 @@
     export default {
         setup() {
             const skillStore = useSkillStore()
-
             return { skillStore }
         }
     }

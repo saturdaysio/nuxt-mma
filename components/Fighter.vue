@@ -35,7 +35,6 @@ import { useFighterStore } from "~~/store/fighter";
 export default {
     setup() {
         const athleteStore = useFighterStore()
-
         return { athleteStore }
     }
 }
