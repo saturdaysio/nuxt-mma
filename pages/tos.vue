@@ -261,18 +261,10 @@
 
 
 <script lang="ts">
-  import { useCssModule } from 'vue'
-
-  export default {
-      setup() {
-          useCssModule()
-          const $style = useCssModule()
-      }
-  }
 </script>
 
 
-<style lang="scss" module scoped>
+<style lang="scss" scoped>
 @import '~/assets/css/tailwind.css';
 
 </style>

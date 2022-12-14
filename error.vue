@@ -1,4 +1,4 @@
-<template>
+<template>.
     <div>
         <Head>
             <Title>Saturdays.io - Page not found</Title>
@@ -7,17 +7,17 @@
 
         <Nav />
 
-        <section id="main" :class="[$style.hero, $style.isFullheightWithNavbar]">
-            <div :class="$style.heroBody">
-                <div :class="[$style.container, $style.hasTextCentered]">
-                    <div :class="$style.pb6">
-                        <h1 :class="[$style.text5xl, $style.isSize3Mobile, $style.hasTextCentered, $style.hasTextWeightBold, $style.hasTextWhite]">Page not found</h1>
-                        <p :class="[$style.subtitle, $style.hasTextGreyLight]">The page you are looking for does not exist.</p>
+        <section id="main" class="hero isFullheightWithNavbar">
+            <div class="heroBody">
+                <div class="container mx-auto">
+                    <div class="pb-6">
+                        <h1 class="text-4xl text-center font-bold text-white">Page not found</h1>
+                        <p class="subtitle text-white">The page you are looking for does not exist.</p>
                     </div>
                     <div>
                         <NuxtLink to="/">
-                            <button :class="[$style.button, $style.isLink]">
-                                <p :class="$style.isSize5"><strong>Go home</strong></p>
+                            <button class="button is-link">
+                                <p class="isSize5"><strong>Go home</strong></p>
                             </button>
                         </NuxtLink>
                     </div>
@@ -32,19 +32,10 @@
 
 
 <script lang="ts">
-    import { useCssModule } from 'vue'
-
-
-    export default {
-        setup() {
-            useCssModule()
-            const $style = useCssModule()
-        }
-    }
 </script>
 
 
-<style lang="scss" module scoped>
+<style lang="scss" scoped>
 
     .button.is-link {
         color: #fff;
