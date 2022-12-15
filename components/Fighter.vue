@@ -11,11 +11,11 @@
                     <div class="flex flex-row flex-wrap">
                         <div id="athlete" class="fighter-card" v-for="item in athleteStore.fighterJson.athlete" :key="item.id">
                             <div class="pr-4">
-                                <img class="avatar w-24" :src="item.imgSrc" :alt="item.imgAlt" :width="item.imgWidth"
+                                <img class="avatar w-12 md:w-16 lg:w-24" :src="item.imgSrc" :alt="item.imgAlt" :width="item.imgWidth"
                                     :height="item.imgHeight">
                             </div>
                             <div class="flex flex-col">
-                                <p class="text-xl text-white">{{ item.name }}</p>
+                                <p class="sm:text-sm md:text-base lg:text-2xl text-white">{{ item.name }}</p>
                             <p class="text-ml text-gray">{{ item.win }}-{{ item.loss }}-{{ item.draw }}</p>
                             </div>
 
