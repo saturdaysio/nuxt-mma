@@ -15,9 +15,8 @@
                                     :height="item.imgHeight">
                             </div>
                             <div class="flex flex-col">
-                                <p class="text-2xl text-white">{{ item.name }}</p>
-                            <p class="text-xl text-gray">{{ item.win }}-{{ item.loss }}-{{ item.draw }}</p>
-                            <p class="text-md text-gray">{{ item.country }}</p>
+                                <p class="text-xl text-white">{{ item.name }}</p>
+                            <p class="text-ml text-gray">{{ item.win }}-{{ item.loss }}-{{ item.draw }}</p>
                             </div>
 
                         </div>
